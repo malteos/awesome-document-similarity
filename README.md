@@ -58,10 +58,17 @@ Siamese networks [(Bromley, Jane, et al. "Signature verification using a siamese
 
 > It is important that not only the architecture of the subnetworks is identical, but the weights have to be shared among them as well for the network to be called "siamese". The main idea behind siamese networks is that they can learn useful data descriptors that can be further used to compare between the inputs of the respective subnetworks. Hereby, inputs can be anything from numerical data (in this case the subnetworks are usually formed by fully-connected layers), image data (with CNNs as subnetworks) or even sequential data such as sentences or time signals (with RNNs as subnetworks).
 
+#### Tasks
+
+Binary classifcation
+
+Multi-label classification
+
 #### Loss functions
 
 #### Concatenations
 
 #### Applications
 
-Binary classifcation
+- Mueller, J. and Thyagarajan, A. 2014. Siamese Recurrent Architectures for Learning Sentence Similarity. Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (AAAI-16). 2012 (2014), 1386–1393. DOI:https://doi.org/10.1109/CVPR.2014.180.
+
