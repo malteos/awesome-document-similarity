@@ -28,7 +28,13 @@ In addition, we distinguish document representations based on the type of data t
 
 #### Sentence-level
 
-#### InferSent
+##### Universal Sentence Encoder
+
+[Paper](https://arxiv.org/abs/1803.11175) 
+
+> We find that using a similarity based on angular distance performs better on average than raw cosine similarity.
+
+##### InferSent
 
 [Paper](https://arxiv.org/abs/1705.02364) [Code](https://github.com/facebookresearch/InferSent)
 
@@ -95,3 +101,8 @@ Variations
 
 - Mueller, J. and Thyagarajan, A. 2014. Siamese Recurrent Architectures for Learning Sentence Similarity. Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (AAAI-16). 2012 (2014), 1386–1393. DOI:https://doi.org/10.1109/CVPR.2014.180.
 
+
+
+## See also
+
+- [Awesome Sentence Embeddings](https://github.com/Separius/awesome-sentence-embedding)
