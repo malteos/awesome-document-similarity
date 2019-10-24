@@ -48,7 +48,7 @@ In addition, we distinguish document representations based on the type of data t
 
 - Word Mover Distance
 
-- Cosine similarity
+- Cosine similarity: Cosine-similarity treats all dimensions equally.
 
 - Manhatten distance
 
