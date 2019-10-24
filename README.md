@@ -3,6 +3,15 @@ A curated list of resources on document similarity measures (papers, tutorials, 
 
 ## Document Representations
 
+In order to compute the similarity of two documents, a numeric representation of the documents must be derived.
+
+These representations are usually vectors of real numbers, whereby the vectors can be either sparse or dense.
+The terms "sparse" and "dense" refer to the number of zero vs. non-zero elements in the vectors. A sparse vector is one that contains mostly zeros and few non-zero entries. A dense vector contains mostly non-zeros. 
+
+[![](https://research.swtch.com/sparse0b.png)](https://research.swtch.com/sparse)
+
+In addition, we distinguish document representations based on the type of data that they rely on, e.g., text, topics, citations.
+
 ### Text
 
 - VSM
