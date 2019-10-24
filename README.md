@@ -42,6 +42,12 @@ In addition, we distinguish document representations based on the type of data t
 
 ## Similarity Measures
 
+- Jaccard Similarity
+
+- Jensen-Shannon distance
+
+- Word Mover Distance
+
 - Cosine similarity
 
 - Manhatten distance
