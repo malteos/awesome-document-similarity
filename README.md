@@ -26,6 +26,15 @@ In addition, we distinguish document representations based on the type of data t
   - [Blockwise Self-Attention for Long Document Understanding](https://openreview.net/forum?id=H1gpET4YDB)
 - [Easy-to-use interface to fine-tuned BERT models for computing semantic similarity](https://github.com/AndriyMulyar/semantic-text-similarity)
 
+#### Sentence-level
+
+#### InferSent
+
+[Paper](https://arxiv.org/abs/1705.02364) [Code](https://github.com/facebookresearch/InferSent)
+
+InferSent is a sentence embeddings method that provides semantic representations for English sentences. It is trained on natural language inference data and generalizes well to many different tasks.
+
+
 ### Topics
 
 - LDA
@@ -68,7 +77,19 @@ Multi-label classification
 
 #### Concatenations
 
+The two Siamese subnetworks encode input data into *u* and *v*. Various approaches exist to then concatenate the encoded input.
+
 - Reimers, N. and Gurevych, I. 2019. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. The 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP 2019) (2019).
+
+Variations
+
+| Paper | Concatenation | Comment |
+|-------|---------------|---------|
+| InferSent | `(u;v;\|u-v\|;u*v)` | no evaluation |
+| Sentence-BERT | `(u;v;\|u-v\|)` | The most important component is the element-wise difference `\|u−v\|` ... The element-wise difference measures the distance between the dimensions of the two sentence embeddings, ensuring that similar pairs are closer and dissimilar pairs are. |
+| Universal Sentence Encoder | | |
+
+
 
 #### Applications
 
