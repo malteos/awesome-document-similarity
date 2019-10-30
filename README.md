@@ -106,3 +106,4 @@ Variations
 ## See also
 
 - [Awesome Sentence Embeddings](https://github.com/Separius/awesome-sentence-embedding)
+- [Text Classification Algorithms: A Survey](https://github.com/kk7nc/Text_Classification) [(Paper)](https://www.mdpi.com/2078-2489/10/4/150)
