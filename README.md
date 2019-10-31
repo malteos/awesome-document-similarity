@@ -175,7 +175,7 @@ Siamese networks [(Bromley, Jane, et al. "Signature verification using a siamese
 > It is important that not only the architecture of the subnetworks is identical, but the weights have to be shared among them as well for the network to be called "siamese". The main idea behind siamese networks is that they can learn useful data descriptors that can be further used to compare between the inputs of the respective subnetworks. Hereby, inputs can be anything from numerical data (in this case the subnetworks are usually formed by fully-connected layers), image data (with CNNs as subnetworks) or even sequential data such as sentences or time signals (with RNNs as subnetworks).
 
 - Siamese LSTM
-- SMASH-RNN
+- SMASH-RNN: [Jiang, J. et al. 2019. Semantic Text Matching for Long-Form Documents. The World Wide Web Conference on - WWW ’19 (New York, New York, USA, 2019), 795–806.](http://dl.acm.org/citation.cfm?doid=3308558.3313707)
 - [Liu, B. et al. 2018. Matching Article Pairs with Graphical Decomposition and Convolutions. (Feb. 2018).](http://arxiv.org/abs/1802.07459) [(Code)](https://github.com/BangLiu/ArticlePairMatching)
 
 
@@ -216,3 +216,4 @@ Variations
 - [Text Classification Algorithms: A Survey](https://github.com/kk7nc/Text_Classification) [(Paper)](https://www.mdpi.com/2078-2489/10/4/150)
 - [Michael J. Pazzani, Daniel Billsus. Content-Based Recommendation Systems](https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10) [(PDF)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.8327&rep=rep1&type=pdf)
 - [Charu C. Aggarwal. Content-Based Recommender Systems](https://link.springer.com/chapter/10.1007/978-3-319-29659-3_4)
+- [Awesome Neural Models for Semantic Match](https://github.com/NTMC-Community/awesome-neural-models-for-semantic-match)
