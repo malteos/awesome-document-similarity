@@ -1,5 +1,15 @@
-# awesome-document-similarity (WIP)
-A curated list of resources on document similarity measures (papers, tutorials, code, ...)
+# Awesome Document Similarity Measures
+
+A curated list of resources, such as papers, tutorials, code, etc., on the topic of document similarity measures.
+
+## Motivation
+
+The goal of this repository is to provide a comprehensive overview for students and reseachers.  
+Document similarity measures are basis the several downstream applications in the area of natural language processing (NLP) and information retrieval (IR). 
+Among the most common applications are duplicate or plagirism detection and content-based recommender systems.
+We selected the following content while having primarily the recommender systems application in mind.
+In particular, we focus on literature recommender systems that need to assess the similarity of long-form and rich content documents. "Long-form" refers to the amount of document content from +100 sentences, whereas rich content means that documents contain aside from text also images, mathematical equations and citations/links.  
+
 
 ## Document Representations
 
@@ -54,6 +64,9 @@ InferSent is a sentence embeddings method that provides semantic representations
 
 - Co-Citation Proximity Analysis (+IDF)
 
+### Mathematical a
+
+### Hybird
 
 ## Similarity Measures
 
@@ -105,6 +118,7 @@ Variations
 
 ## See also
 
+- [Text Similarities: Estimate the degree of similarity between two texts](https://medium.com/@adriensieg/text-similarities-da019229c894)
 - [Awesome Sentence Embeddings](https://github.com/Separius/awesome-sentence-embedding)
 - [Text Classification Algorithms: A Survey](https://github.com/kk7nc/Text_Classification) [(Paper)](https://www.mdpi.com/2078-2489/10/4/150)
 - [Michael J. Pazzani, Daniel Billsus. Content-Based Recommendation Systems](https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10) [(PDF)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.8327&rep=rep1&type=pdf)
