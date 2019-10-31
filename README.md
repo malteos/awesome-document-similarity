@@ -176,6 +176,8 @@ Siamese networks [(Bromley, Jane, et al. "Signature verification using a siamese
 
 - Siamese LSTM
 - SMASH-RNN
+- [Liu, B. et al. 2018. Matching Article Pairs with Graphical Decomposition and Convolutions. (Feb. 2018).](http://arxiv.org/abs/1802.07459) [(Code)](https://github.com/BangLiu/ArticlePairMatching)
+
 
 #### Tasks
 
