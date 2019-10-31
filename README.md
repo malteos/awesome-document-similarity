@@ -70,14 +70,49 @@ The terms "sparse" and "dense" refer to the number of zero vs. non-zero elements
 
 In addition, we distinguish document representations based on the type of data that they rely on, e.g., text, topics, citations.
 
-### Text
+### Traditional Text-based
 
 - Bag-of-Words
 - VSM
 - TF-IDF (IDF variants, BM25,)
 
+### Word-level
 
-#### BERT and other Transformer models
+- Word2Vec
+- Glove
+- FastText
+
+### Word Context
+
+- Contextualized Word Vectors (CoVe). [Paper](http://papers.nips.cc/paper/7209-learned-in-translation-contextualized-word-vectors.pdf), [Code](https://github.com/salesforce/cove)
+- Embeddings from Language Models (ELMo). [Paper](https://arxiv.org/pdf/1802.05365.pdf)
+- Contextual String Embeddings (Zalando Flair). [Paper](http://aclweb.org/anthology/C18-1139)
+
+### From word to sentence level
+
+- Average
+- Weighted Average
+- Smooth Inverse Frequency. [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/pdf?id=SyK00v5xx)
+
+### Sentence-level
+
+- Skip-thoughts. [Paper](https://arxiv.org/pdf/1506.06726.pdf). [Code](https://github.com/ryankiros/skip-thoughts)
+- Quick-Thoughts. [Paper](https://arxiv.org/pdf/1803.02893.pdf)
+- Universal Sentence Encoder. [Paper](https://arxiv.org/abs/1803.11175)
+
+> We find that using a similarity based on angular distance performs better on average than raw cosine similarity.
+
+- InferSent. [Paper](https://arxiv.org/abs/1705.02364) [Code](https://github.com/facebookresearch/InferSent)
+
+InferSent is a sentence embeddings method that provides semantic representations for English sentences. It is trained on natural language inference data and generalizes well to many different tasks.
+
+
+### BERT and other Transformer Language Models
+
+- Generative Pre-Training-2 (GPT-2)
+- Universal Language Model Fine-tuning (ULMFiT)
+
+Overcoming BERT's 512 token limit:
 
 - Long-form document classification with BERT. [Blogpost](https://andriymulyar.com/blog/bert-document-classification), [Code](https://github.com/AndriyMulyar/bert_document_classification)
 - See ICLR 2020 reviews: 
@@ -85,25 +120,12 @@ In addition, we distinguish document representations based on the type of data t
   - [Blockwise Self-Attention for Long Document Understanding](https://openreview.net/forum?id=H1gpET4YDB)
 - [Easy-to-use interface to fine-tuned BERT models for computing semantic similarity](https://github.com/AndriyMulyar/semantic-text-similarity)
 
-#### Sentence-level
 
-##### Universal Sentence Encoder
+### Topic-oriented
 
-[Paper](https://arxiv.org/abs/1803.11175) 
-
-> We find that using a similarity based on angular distance performs better on average than raw cosine similarity.
-
-##### InferSent
-
-[Paper](https://arxiv.org/abs/1705.02364) [Code](https://github.com/facebookresearch/InferSent)
-
-InferSent is a sentence embeddings method that provides semantic representations for English sentences. It is trained on natural language inference data and generalizes well to many different tasks.
-
-
-### Topics
-
+- LSA/LSI
 - LDA
-- LSI
+- LDA2Vec
 
 ### Citations
 
@@ -117,23 +139,36 @@ InferSent is a sentence embeddings method that provides semantic representations
 
 ### Hybird
 
-## Similarity Measures
+## Similarity / Distance Measures
+
+Nearest neighbours in embedding space are considered to be similar.
 
 - Jaccard Similarity
 
 - Jensen-Shannon distance
 
-- Word Mover Distance
+- Word Mover Distance, Supervised Word Moving Distance (S-WMD)
+
+-  Euclidean Distance
 
 - Cosine similarity: Cosine-similarity treats all dimensions equally.
 
-- Manhatten distance
+- Manhatten distance = L1 norm (see also [Manhattan LSTM](http://www.mit.edu/~jonasm/info/MuellerThyagarajan_AAAI16.pdf))
+
+- Edit distance
+
+- Levenshtein Distance
+
+
 
 ### Siamese Networks
 
 Siamese networks [(Bromley, Jane, et al. "Signature verification using a siamese time delay neural network". Advances in neural information processing systems. 1994.)](http://papers.nips.cc/paper/769-signature-verification-using-a-siamese-time-delay-neural-network.pdf) are neural networks containing two or more identical subnetwork components.
 
 > It is important that not only the architecture of the subnetworks is identical, but the weights have to be shared among them as well for the network to be called "siamese". The main idea behind siamese networks is that they can learn useful data descriptors that can be further used to compare between the inputs of the respective subnetworks. Hereby, inputs can be anything from numerical data (in this case the subnetworks are usually formed by fully-connected layers), image data (with CNNs as subnetworks) or even sequential data such as sentences or time signals (with RNNs as subnetworks).
+
+- Siamese LSTM
+- SMASH-RNN
 
 #### Tasks
 
