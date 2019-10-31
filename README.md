@@ -125,7 +125,7 @@ Overcoming BERT's 512 token limit:
 ### Document-level
 
 - Doc2Vec
-
+- Fuzzy Bag-of-Words Model for Document Representation. [Paper](http://www.msrprojectshyd.com/upload/academicprojects/122b84310415012104464a741f5b6f9116.pdf)
 ### Topic-oriented
 
 - LSA/LSI
