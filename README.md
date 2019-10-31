@@ -6,10 +6,58 @@ A curated list of resources, such as papers, tutorials, code, etc., on the topic
 
 The goal of this repository is to provide a comprehensive overview for students and reseachers.  
 Document similarity measures are basis the several downstream applications in the area of natural language processing (NLP) and information retrieval (IR). 
-Among the most common applications are duplicate or plagirism detection and content-based recommender systems.
+Among the most common applications are clustering, duplicate or plagirism detection and content-based recommender systems.
 We selected the following content while having primarily the recommender systems application in mind.
 In particular, we focus on literature recommender systems that need to assess the similarity of long-form and rich content documents. "Long-form" refers to the amount of document content from +100 sentences, whereas rich content means that documents contain aside from text also images, mathematical equations and citations/links.  
 
+### Dimensions of Similarity
+
+Documents might be declared as similar, when they, e.g., cover the same topic, use a common set of words or are written in the same font. 
+In IR the dimension of similarity defines the understanding of similarity.
+We distinguish between the following dimensions: lexical, structural and semantic document similarity.
+
+Moreover, similarity is not a binary decision. 
+In many cases declaring two things as similar or not, is not suitable. Instead, the degree of similarity is measured. Similarity measures express therefore document similarity as normalised scalar score, which is within an interval of zero to one.
+The highest degree of similarity is measured as one. 
+When two objects are dissimilar, the degree of similarity is zero.
+
+- D. Lin, “An Information-Theoretic Definition of Similarity,” Proc. ICML, pp. 296–304, 1998.
+
+
+### Lexical Similarity
+
+The lexical document similarity of two documents depends on the words, which occur in the document text. 
+A total overlap between vocabularies would result in a lexical similarity of 1, whereas 0 means both documents share no words. 
+This dimension of similarity can be calculated by a simple word-to-word comparison. 
+Methods like stemming or stop word removal increase the effectiveness of lexical similarity.
+
+- J. B. Lovins, “Development of a stemming algorithm,” Mech. Transl. Comput. Linguist., vol. 11, no. June, pp. 22–31, 1968.
+- C. Fox, “A stop list for general text,” ACM SIGIR Forum, vol. 24, no. 1–2. pp. 19–21, 1989.
+
+### Strutural Similarity
+
+Whereas lexical similarity focuses on the vocabulary, structural similarity describes the conceptual composition of two documents. 
+Structural document similarity stretches from graphical components, like text layout, over similarities in the composition of text segments, e.g., paragraphs or sentences that are lexical similar, to the arrangement of citations and hyperlinks.
+
+Structural similarity is mainly used for semi-structured document formats, such as XML or HTML. 
+A common, yet expensive in computing time, approach is to calculate the minimum cost edit distance between any two document structures. 
+The cost edit distance is the number of actions that are required to change a document so it is identical to another document
+
+- C. Shin and D. Doermann, “Document image retrieval based on layout structural similarity,” Int. Conf. Image Process. Comput. Vision, Pattern Recognit., pp. 606–612, 2006.
+- D. Buttler, “A short survey of document structure similarity algorithms,” Int. Conf. Internet Comput., pp. 3–9, 2004.
+
+### Semantic Similarity
+
+Two documents are considered as semantically similar when they cover related topics or have the same semantic meaning. 
+A proper determination of the semantic similarity is essential for many IR systems, since in many use cases the users information need is rather about the semantic meaning than the vocabulary or structure of a document. 
+However, measuring topical relatedness is a complex task. 
+Therefore, lexical or structural similarity is often used to approximate semantic similarity.
+The example below shows that approximating semantic by lexical similarity is not always suitable.
+
+1. Our earth is round.
+2. The world is a globe.
+
+Even if both sentences are lexically different, because they have only one out of five words in common, the semantic meaning of the sentences is synonymous.
 
 ## Document Representations
 
@@ -24,6 +72,7 @@ In addition, we distinguish document representations based on the type of data t
 
 ### Text
 
+- Bag-of-Words
 - VSM
 - TF-IDF (IDF variants, BM25,)
 
