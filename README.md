@@ -109,8 +109,10 @@ InferSent is a sentence embeddings method that provides semantic representations
 
 ### BERT and other Transformer Language Models
 
+- BERT
 - Generative Pre-Training-2 (GPT-2)
 - Universal Language Model Fine-tuning (ULMFiT)
+- XLNet
 
 Overcoming BERT's 512 token limit:
 
@@ -120,6 +122,9 @@ Overcoming BERT's 512 token limit:
   - [Blockwise Self-Attention for Long Document Understanding](https://openreview.net/forum?id=H1gpET4YDB)
 - [Easy-to-use interface to fine-tuned BERT models for computing semantic similarity](https://github.com/AndriyMulyar/semantic-text-similarity)
 
+### Document-level
+
+- Doc2Vec
 
 ### Topic-oriented
 
@@ -143,15 +148,15 @@ Overcoming BERT's 512 token limit:
 
 Nearest neighbours in embedding space are considered to be similar.
 
+-  Euclidean Distance
+
 - Jaccard Similarity
 
 - Jensen-Shannon distance
 
-- Word Mover Distance, Supervised Word Moving Distance (S-WMD)
-
--  Euclidean Distance
-
 - Cosine similarity: Cosine-similarity treats all dimensions equally.
+
+- Soft cosine
 
 - Manhatten distance = L1 norm (see also [Manhattan LSTM](http://www.mit.edu/~jonasm/info/MuellerThyagarajan_AAAI16.pdf))
 
@@ -159,7 +164,9 @@ Nearest neighbours in embedding space are considered to be similar.
 
 - Levenshtein Distance
 
+- Word Mover Distance
 
+- Supervised Word Moving Distance (S-WMD)
 
 ### Siamese Networks
 
@@ -202,7 +209,7 @@ Variations
 
 ## See also
 
-- [Text Similarities: Estimate the degree of similarity between two texts](https://medium.com/@adriensieg/text-similarities-da019229c894)
+- [Text Similarities: Estimate the degree of similarity between two texts](https://medium.com/@adriensieg/text-similarities-da019229c894) [Repo](https://github.com/adsieg/text_similarity)
 - [Awesome Sentence Embeddings](https://github.com/Separius/awesome-sentence-embedding)
 - [Text Classification Algorithms: A Survey](https://github.com/kk7nc/Text_Classification) [(Paper)](https://www.mdpi.com/2078-2489/10/4/150)
 - [Michael J. Pazzani, Daniel Billsus. Content-Based Recommendation Systems](https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10) [(PDF)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.8327&rep=rep1&type=pdf)
