@@ -117,6 +117,12 @@ InferSent is a sentence embeddings method that provides semantic representations
 - Universal Language Model Fine-tuning (ULMFiT) [Paper](https://arxiv.org/pdf/1801.06146.pdf)
 - XLNet
 
+BERT pooling strategies:
+
+> Bert is amazing at encoding texts, just pool the contextualized embeddings. If not pre-training, use the 2nd to last layer as it usually gets better results (see the research in the bert-as-a-service github repo). [Reddit](https://www.reddit.com/r/MachineLearning/comments/dkjlq2/d_im_looking_for_successfailure_stories_applying/)
+
+- https://github.com/hanxiao/bert-as-service#q-what-are-the-available-pooling-strategies
+
 Overcoming BERT's 512 token limit:
 
 - Long-form document classification with BERT. [Blogpost](https://andriymulyar.com/blog/bert-document-classification), [Code](https://github.com/AndriyMulyar/bert_document_classification)
