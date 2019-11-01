@@ -70,6 +70,8 @@ The terms "sparse" and "dense" refer to the number of zero vs. non-zero elements
 
 In addition, we distinguish document representations based on the type of data that they rely on, e.g., text, topics, citations.
 
+In the context of machine learning approaches that produce dense vector representations, the process is often refered to as learning of document features.
+
 ### Traditional Text-based
 
 - Bag-of-Words
@@ -78,9 +80,9 @@ In addition, we distinguish document representations based on the type of data t
 
 ### Word-level
 
-- Word2Vec
-- Glove
-- FastText
+- Word2Vec. [Paper](https://arxiv.org/pdf/1301.3781.pdf%5D)
+- Glove. [Paper](https://www.aclweb.org/anthology/D14-1162). [Code](https://nlpython.com/implementing-glove-model-with-pytorch/)
+- FastText [Paper](https://arxiv.org/pdf/1607.01759.pdf). [Code](https://fasttext.cc/)
 
 ### Word Context
 
@@ -109,9 +111,10 @@ InferSent is a sentence embeddings method that provides semantic representations
 
 ### BERT and other Transformer Language Models
 
-- BERT
-- Generative Pre-Training-2 (GPT-2)
-- Universal Language Model Fine-tuning (ULMFiT)
+- BERT [Paper](https://arxiv.org/abs/1810.04805)
+- GPT [Paper](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+- Generative Pre-Training-2 (GPT-2) [Paper](https://www.techbooky.com/wp-content/uploads/2019/02/Better-Language-Models-and-Their-Implications.pdf)
+- Universal Language Model Fine-tuning (ULMFiT) [Paper](https://arxiv.org/pdf/1801.06146.pdf)
 - XLNet
 
 Overcoming BERT's 512 token limit:
@@ -124,7 +127,7 @@ Overcoming BERT's 512 token limit:
 
 ### Document-level
 
-- Doc2Vec
+- Doc2Vec [Paper](http://arxiv.org/abs/1507.07998), [Paper 2](http://www.jmlr.org/proceedings/papers/v32/le14.pdf)
 - Fuzzy Bag-of-Words Model for Document Representation. [Paper](http://www.msrprojectshyd.com/upload/academicprojects/122b84310415012104464a741f5b6f9116.pdf)
 ### Topic-oriented
 
@@ -139,6 +142,24 @@ Overcoming BERT's 512 token limit:
 - Co-Citation
 
 - Co-Citation Proximity Analysis (+IDF)
+
+#### Neural / Dense representations
+
+- Cite2vec: Citation-Driven Document Exploration via Word Embeddings. [Paper](http://hdc.cs.arizona.edu/papers/tvcg_cite2vec_2017.pdf)
+
+- hyperdoc2vec: Distributed Representations of Hypertext Documents. [Paper](https://arxiv.org/abs/1805.03793)
+
+- Graph Embedding for Citation Recommendation. [Paper](https://arxiv.org/abs/1812.03835)
+
+General graph embedding methods:
+
+- DeepWalk: Online Learning of Social Representations. [Paper](https://arxiv.org/abs/1403.6652)
+- LINE: Large-scale Information Network Embedding. [Paper](https://arxiv.org/abs/1503.03578). [Code](https://github.com/tangjianpku/LINE)
+- node2vec. [Paper](https://www.kdd.org/kdd2016/papers/files/rfp0218-groverA.pdf)
+
+Various implementations:
+- [GraphVite - graph embedding at high speed and large scale](https://github.com/DeepGraphLearning/graphvite)
+
 
 ### Mathematical a
 
@@ -164,7 +185,7 @@ Nearest neighbours in embedding space are considered to be similar.
 
 - Levenshtein Distance
 
-- Word Mover Distance
+- Word Mover Distance [Paper](http://proceedings.mlr.press/v37/kusnerb15.pdf), [Paper 2](http://arxiv.org/abs/1811.01713)
 
 - Supervised Word Moving Distance (S-WMD)
 
@@ -212,8 +233,11 @@ Variations
 ## See also
 
 - [Text Similarities: Estimate the degree of similarity between two texts](https://medium.com/@adriensieg/text-similarities-da019229c894) [Repo](https://github.com/adsieg/text_similarity)
-- [Awesome Sentence Embeddings](https://github.com/Separius/awesome-sentence-embedding)
 - [Text Classification Algorithms: A Survey](https://github.com/kk7nc/Text_Classification) [(Paper)](https://www.mdpi.com/2078-2489/10/4/150)
 - [Michael J. Pazzani, Daniel Billsus. Content-Based Recommendation Systems](https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10) [(PDF)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.8327&rep=rep1&type=pdf)
 - [Charu C. Aggarwal. Content-Based Recommender Systems](https://link.springer.com/chapter/10.1007/978-3-319-29659-3_4)
+
+Awesome:
+- [Awesome Sentence Embeddings](https://github.com/Separius/awesome-sentence-embedding)
 - [Awesome Neural Models for Semantic Match](https://github.com/NTMC-Community/awesome-neural-models-for-semantic-match)
+- [Awesome Network Embedding](https://github.com/chihming/awesome-network-embedding)
