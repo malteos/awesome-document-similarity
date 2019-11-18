@@ -116,6 +116,8 @@ InferSent is a sentence embeddings method that provides semantic representations
 - Generative Pre-Training-2 (GPT-2) [Paper](https://www.techbooky.com/wp-content/uploads/2019/02/Better-Language-Models-and-Their-Implications.pdf)
 - Universal Language Model Fine-tuning (ULMFiT) [Paper](https://arxiv.org/pdf/1801.06146.pdf)
 - XLNet
+- Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context. [Paper](https://arxiv.org/abs/1901.02860) [Code](https://github.com/kimiyoung/transformer-xl)
+
 
 BERT pooling strategies:
 
@@ -125,11 +127,14 @@ BERT pooling strategies:
 
 Overcoming BERT's 512 token limit:
 
+> The Transformer self-attention mechanism imposes a quadratic cost with respect to sequence length, limiting its wider application, especially for long text.
+
 - Long-form document classification with BERT. [Blogpost](https://andriymulyar.com/blog/bert-document-classification), [Code](https://github.com/AndriyMulyar/bert_document_classification)
 - See ICLR 2020 reviews: 
   - [BERT-AL: BERT for Arbitrarily Long Document Understanding](https://openreview.net/forum?id=SklnVAEFDB)
   - [Blockwise Self-Attention for Long Document Understanding](https://openreview.net/forum?id=H1gpET4YDB)
 - [Easy-to-use interface to fine-tuned BERT models for computing semantic similarity](https://github.com/AndriyMulyar/semantic-text-similarity)
+- Ye, Z. et al. 2019. BP-Transformer: Modelling Long-Range Context via Binary Partitioning. (2019). [Paper](https://arxiv.org/pdf/1911.04070.pdf) [Code](https://github.com/yzh119/BPT)
 
 ### Document-level
 
