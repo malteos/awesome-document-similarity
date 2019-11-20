@@ -233,6 +233,9 @@ Variations
 | Sentence-BERT | `(u;v;\|u-v\|)` | The most important component is the element-wise difference `\|u−v\|` ... The element-wise difference measures the distance between the dimensions of the two sentence embeddings, ensuring that similar pairs are closer and dissimilar pairs are. |
 | Universal Sentence Encoder | | |
 
+#### MLP on top of Siamese sub networks
+
+>  A matching network with multi-layer perceptron (MLP) is a standard way to mix multi-dimensions of information [(Learning to Rank Short Text Pairs with Convolutional Deep Neural Networks)](https://doi.org/10.1145/2766462.2767738)
 
 
 #### Applications
