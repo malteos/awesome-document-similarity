@@ -242,7 +242,9 @@ Variations
 
 - Mueller, J. and Thyagarajan, A. 2014. Siamese Recurrent Architectures for Learning Sentence Similarity. Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (AAAI-16). 2012 (2014), 1386–1393. DOI:https://doi.org/10.1109/CVPR.2014.180.
 
+## Benchmarks & Datasets
 
+- Large expert-curated database for benchmarking document similarity detection in biomedical literature search. [Paper](https://academic.oup.com/database/article/doi/10.1093/database/baz085/5608006), [Data](https://relishdb.ict.griffith.edu.au/data)
 
 ## See also
 
