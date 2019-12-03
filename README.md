@@ -219,6 +219,10 @@ Multi-label classification
 
 #### Loss functions
 
+- (Binary) Cross Entropy
+- Mean Square Error
+- ...
+
 #### Concatenations
 
 The two Siamese subnetworks encode input data into *u* and *v*. Various approaches exist to then concatenate the encoded input.
