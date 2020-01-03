@@ -210,6 +210,7 @@ Siamese networks [(Bromley, Jane, et al. "Signature verification using a siamese
 - SMASH-RNN: [Jiang, J. et al. 2019. Semantic Text Matching for Long-Form Documents. The World Wide Web Conference on - WWW ’19 (New York, New York, USA, 2019), 795–806.](http://dl.acm.org/citation.cfm?doid=3308558.3313707)
 - [Liu, B. et al. 2018. Matching Article Pairs with Graphical Decomposition and Convolutions. (Feb. 2018).](http://arxiv.org/abs/1802.07459) [(Code)](https://github.com/BangLiu/ArticlePairMatching)
 
+- [Siamese Neural Networks built upon multihead attention mechanism for text semantic similarity task](https://github.com/tlatkowski/multihead-siamese-nets)
 
 #### Tasks
 
