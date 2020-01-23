@@ -170,9 +170,9 @@ General graph embedding methods:
 
 Various implementations:
 - [GraphVite - graph embedding at high speed and large scale](https://github.com/DeepGraphLearning/graphvite)
+- [Karate Club is an unsupervised machine learning extension library for NetworkX.](https://github.com/benedekrozemberczki/karateclub)
 
-
-### Mathematical a
+### Mathematical 
 
 ### Hybird
 
