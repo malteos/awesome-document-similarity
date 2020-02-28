@@ -136,6 +136,8 @@ Overcoming BERT's 512 token limit:
 - [Easy-to-use interface to fine-tuned BERT models for computing semantic similarity](https://github.com/AndriyMulyar/semantic-text-similarity)
 - Ye, Z. et al. 2019. BP-Transformer: Modelling Long-Range Context via Binary Partitioning. (2019). [Paper](https://arxiv.org/pdf/1911.04070.pdf) [Code](https://github.com/yzh119/BPT)
 
+- [Natural Language Recommendations: A novel research paper search engine developed entirely with embedding and transformer models.](https://github.com/Santosh-Gupta/NaturalLanguageRecommendations)
+
 ### Document-level
 
 - Doc2Vec [Paper](http://arxiv.org/abs/1507.07998), [Paper 2](http://www.jmlr.org/proceedings/papers/v32/le14.pdf)
