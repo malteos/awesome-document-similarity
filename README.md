@@ -108,6 +108,7 @@ In the context of machine learning approaches that produce dense vector represen
 
 InferSent is a sentence embeddings method that provides semantic representations for English sentences. It is trained on natural language inference data and generalizes well to many different tasks.
 
+- ERCNN: Enhanced Recurrent Convolutional Neural Networks for Learning Sentence Similarity [Paper](https://link.springer.com/chapter/10.1007/978-3-030-32381-3_10). [Code](https://github.com/daviddwlee84/SentenceSimilarity) [Code II](https://github.com/guqian/eRCNN)
 
 ### BERT and other Transformer Language Models
 
