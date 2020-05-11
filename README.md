@@ -137,6 +137,7 @@ Overcoming BERT's 512 token limit:
 - [Easy-to-use interface to fine-tuned BERT models for computing semantic similarity](https://github.com/AndriyMulyar/semantic-text-similarity)
 - Ye, Z. et al. 2019. BP-Transformer: Modelling Long-Range Context via Binary Partitioning. (2019). [Paper](https://arxiv.org/pdf/1911.04070.pdf) [Code](https://github.com/yzh119/BPT)
 
+- Longformer: The Long-Document Transformer [Code](https://github.com/allenai/longformer) [Paper](https://arxiv.org/abs/2004.05150)
 - [Natural Language Recommendations: A novel research paper search engine developed entirely with embedding and transformer models.](https://github.com/Santosh-Gupta/NaturalLanguageRecommendations)
 
 ### Document-level
@@ -151,13 +152,13 @@ Overcoming BERT's 512 token limit:
 
 ### Citations
 
-- Bibliographic coupling
+**Classical**
+- Bibliographic coupling. [Martyn, J (1964)](https://doi.org/10.1108%2Feb026352)
+- Co-Citation. [Small, Henry (1973)](https://doi.org/10.1002%2Fasi.4630240406)
+- Co-Citation Proximity Analysis. [Gipp, Bela; Beel, Joeran (2006)](http://sciplore.org/wp-content/papercite-data/pdf/gipp09a.pdf)
+- [Evaluating the CC-IDF citation-weighting scheme: How effectively can ‘Inverse Document Frequency’ (IDF) be applied to references?](https://doi.org/10.9776/17210)
 
-- Co-Citation
-
-- Co-Citation Proximity Analysis (+IDF)
-
-#### Neural / Dense representations
+#### Citation Graph Embeddings (Dense representations)
 
 - Cite2vec: Citation-Driven Document Exploration via Word Embeddings. [Paper](http://hdc.cs.arizona.edu/papers/tvcg_cite2vec_2017.pdf)
 
@@ -170,6 +171,7 @@ General graph embedding methods:
 - DeepWalk: Online Learning of Social Representations. [Paper](https://arxiv.org/abs/1403.6652)
 - LINE: Large-scale Information Network Embedding. [Paper](https://arxiv.org/abs/1503.03578). [Code](https://github.com/tangjianpku/LINE)
 - node2vec. [Paper](https://www.kdd.org/kdd2016/papers/files/rfp0218-groverA.pdf)
+- Poincare Embeddings. [Nickel and Kiela (2017)](https://arxiv.org/pdf/1705.08039.pdf) [Gensim Implementation](https://radimrehurek.com/gensim/models/poincare.html#gensim.models.poincare.PoincareKeyedVectors.closest_child)
 
 Various implementations:
 - [GraphVite - graph embedding at high speed and large scale](https://github.com/DeepGraphLearning/graphvite)
@@ -240,6 +242,7 @@ Variations
 | InferSent | `(u;v;\|u-v\|;u*v)` | no evaluation |
 | Sentence-BERT | `(u;v;\|u-v\|)` | The most important component is the element-wise difference `\|u−v\|` ... The element-wise difference measures the distance between the dimensions of the two sentence embeddings, ensuring that similar pairs are closer and dissimilar pairs are. |
 | Universal Sentence Encoder | | |
+| Pairwise Document Classification | `(u;v;\|u-v\|;u*v)` | Performaning concatenation ([Paper](https://arxiv.org/abs/2003.09881))| 
 
 - https://www.reddit.com/r/MachineLearning/comments/e525c6/d_what_beats_concatenation/
 - [FiLM](https://arxiv.org/abs/1709.07871)
