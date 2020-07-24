@@ -205,6 +205,9 @@ Nearest neighbours in embedding space are considered to be similar.
 
 - Supervised Word Moving Distance (S-WMD)
 
+Implementations
+- [textdistance (Python, many algorithms)](https://github.com/life4/textdistance)
+
 ### Siamese Networks
 
 Siamese networks [(Bromley, Jane, et al. "Signature verification using a siamese time delay neural network". Advances in neural information processing systems. 1994.)](http://papers.nips.cc/paper/769-signature-verification-using-a-siamese-time-delay-neural-network.pdf) are neural networks containing two or more identical subnetwork components.
