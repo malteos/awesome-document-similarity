@@ -110,6 +110,8 @@ InferSent is a sentence embeddings method that provides semantic representations
 
 - ERCNN: Enhanced Recurrent Convolutional Neural Networks for Learning Sentence Similarity [Paper](https://link.springer.com/chapter/10.1007/978-3-030-32381-3_10). [Code](https://github.com/daviddwlee84/SentenceSimilarity) [Code II](https://github.com/guqian/eRCNN)
 
+- DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations [Paper](https://arxiv.org/abs/2006.03659) [Code](https://github.com/JohnGiorgi/DeCLUTR)
+
 ### BERT and other Transformer Language Models
 
 - BERT [Paper](https://arxiv.org/abs/1810.04805)
