@@ -222,6 +222,10 @@ Siamese networks [(Bromley, Jane, et al. "Signature verification using a siamese
 
 - [Siamese Neural Networks built upon multihead attention mechanism for text semantic similarity task](https://github.com/tlatkowski/multihead-siamese-nets)
 
+### Text matching
+
+- [Simple and Effective Text Matching with Richer Alignment Features](https://www.aclweb.org/anthology/P19-1465/) [(Code)](https://github.com/alibaba-edu/simple-effective-text-matching-pytorch)
+
 #### Tasks
 
 Binary classifcation
