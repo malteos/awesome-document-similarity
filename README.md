@@ -59,6 +59,20 @@ The example below shows that approximating semantic by lexical similarity is not
 
 Even if both sentences are lexically different, because they have only one out of five words in common, the semantic meaning of the sentences is synonymous.
 
+### Similarity concepts
+
+Text similarity
+- [Bär, D., Zesch, T., & Gurevych, I. (2011). A reflective view on text similarity. International Conference Recent Advances in Natural Language Processing, RANLP, (September), 515–520.](https://www.aclweb.org/anthology/R11-1071/)
+- [Bär, D., Zesch, T., & Gurevych, I. (2015). Composing Measures for Computing Text Similarity. Technical Report TUD-CS-2015-0017, 1–30.](http://tuprints.ulb.tu-darmstadt.de/4342/)
+
+Psychological
+- [Tversky, A. (1977). Features of similarity. Psychological Review, 84(4), 327.](https://doi.org/10.1037/0033-295X.84.4.327)
+- [Medin, D. L., Goldstone, R. L., & Gentner, D. (1993). Respects for Similarity. Psychological Review, 100(2), 254–278.](https://doi.org/10.1037/0033-295X.100.2.254)
+
+Narratives
+- [Nguyen, D., Trieschnigg, D., & Theune, M. (2014). Using crowdsourcing to investigate perception of narrative similarity. CIKM 2014 - Proceedings of the 2014 ACM International Conference on Information and Knowledge Management, 321–330.](https://doi.org/10.1145/2661829.2661918)
+
+
 ## Document Representations
 
 In order to compute the similarity of two documents, a numeric representation of the documents must be derived.
