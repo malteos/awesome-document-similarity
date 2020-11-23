@@ -134,6 +134,8 @@ InferSent is a sentence embeddings method that provides semantic representations
 - Universal Language Model Fine-tuning (ULMFiT) [Paper](https://arxiv.org/pdf/1801.06146.pdf)
 - XLNet
 - Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context. [Paper](https://arxiv.org/abs/1901.02860) [Code](https://github.com/kimiyoung/transformer-xl)
+- [Sentence Transformers](https://github.com/UKPLab/sentence-transformers)
+- [Li, B., Zhou, H., He, J., Wang, M., Yang, Y., & Li, L. (2020). On the Sentence Embeddings from Pre-trained Language Models. EMNLP 2020.](http://arxiv.org/abs/2011.05864) ([Code](https://github.com/bohanli/BERT-flow))
 
 
 BERT pooling strategies:
