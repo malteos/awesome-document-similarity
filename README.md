@@ -286,6 +286,11 @@ Variations
 
 - Large expert-curated database for benchmarking document similarity detection in biomedical literature search. [Paper](https://academic.oup.com/database/article/doi/10.1093/database/baz085/5608006), [Data](https://relishdb.ict.griffith.edu.au/data)
 
+## Performance measures
+
+- [Chen, Mingang, and Pan Liu. "Performance Evaluation of Recommender Systems." International Journal of Performability Engineering 13.8 (2017).](https://pdfs.semanticscholar.org/7d60/90ef21f15f9f1210b6f96664e6a3a0e6b507.pdf)
+- [Bobadilla, Jesus, et al. "Reliability quality measures for recommender systems." Information Sciences 442 (2018): 145-157.](https://doi.org/10.1016/j.ins.2018.02.030)
+
 ## See also
 
 - [Text Similarities: Estimate the degree of similarity between two texts](https://medium.com/@adriensieg/text-similarities-da019229c894) [Repo](https://github.com/adsieg/text_similarity)
