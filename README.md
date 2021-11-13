@@ -291,10 +291,14 @@ Variations
 - [Chen, Mingang, and Pan Liu. "Performance Evaluation of Recommender Systems." International Journal of Performability Engineering 13.8 (2017).](https://pdfs.semanticscholar.org/7d60/90ef21f15f9f1210b6f96664e6a3a0e6b507.pdf)
 - [Bobadilla, Jesus, et al. "Reliability quality measures for recommender systems." Information Sciences 442 (2018): 145-157.](https://doi.org/10.1016/j.ins.2018.02.030)
 
+## Surveys
+
+- [Evolution of Semantic Similarity - A Survey](https://dl.acm.org/doi/abs/10.1145/3440755)
+- [Text Classification Algorithms: A Survey](https://github.com/kk7nc/Text_Classification) [(Paper)](https://www.mdpi.com/2078-2489/10/4/150)
+- 
 ## See also
 
 - [Text Similarities: Estimate the degree of similarity between two texts](https://medium.com/@adriensieg/text-similarities-da019229c894) [Repo](https://github.com/adsieg/text_similarity)
-- [Text Classification Algorithms: A Survey](https://github.com/kk7nc/Text_Classification) [(Paper)](https://www.mdpi.com/2078-2489/10/4/150)
 - [Michael J. Pazzani, Daniel Billsus. Content-Based Recommendation Systems](https://link.springer.com/chapter/10.1007/978-3-540-72079-9_10) [(PDF)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.8327&rep=rep1&type=pdf)
 - [Charu C. Aggarwal. Content-Based Recommender Systems](https://link.springer.com/chapter/10.1007/978-3-319-29659-3_4)
 - [Sentence Similarity Calculator (ELMo, BERT and Universal Sentence Encoder, and different similarity measures)](https://github.com/Huffon/sentence-similarity)
