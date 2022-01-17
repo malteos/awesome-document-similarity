@@ -285,6 +285,11 @@ Variations
 ## Benchmarks & Datasets
 
 - Large expert-curated database for benchmarking document similarity detection in biomedical literature search. [Paper](https://academic.oup.com/database/article/doi/10.1093/database/baz085/5608006), [Data](https://relishdb.ict.griffith.edu.au/data)
+- [SciDocs - The Dataset Evaluation Suite for SPECTER (for classification, citation prediction, user activity, recommendation)](https://github.com/allenai/scidocs)
+- [CSFCube -- A Test Collection of Computer Science Research Articles for Faceted Query by Example](https://arxiv.org/abs/2103.12906)
+- [STSbenchmark](https://ixa2.si.ehu.eus/stswiki/index.php/STSbenchmark)
+- [A Heterogeneous Benchmark for Information Retrieval. Easy to use, evaluate your models across 15+ diverse IR datasets.](https://github.com/UKPLab/beir)
+
 
 ## Performance measures
 
