@@ -144,6 +144,11 @@ BERT pooling strategies:
 
 - https://github.com/hanxiao/bert-as-service#q-what-are-the-available-pooling-strategies
 
+Better BERT embeddings (fix anisotropic problem):
+- [SimCSE: Simple Contrastive Learning of Sentence Embeddings](https://arxiv.org/abs/2104.08821)
+- [WhiteningBERT: An Easy Unsupervised Sentence Embedding Approach](https://arxiv.org/abs/2104.01767)
+
+
 Overcoming BERT's 512 token limit:
 
 > The Transformer self-attention mechanism imposes a quadratic cost with respect to sequence length, limiting its wider application, especially for long text.
@@ -198,6 +203,9 @@ Various implementations:
 ### Mathematical 
 
 ### Hybird
+
+- Concatenate Text + Citation Embeddings: [Evaluating Document Representations for Content-based Legal Literature Recommendations](https://arxiv.org/abs/2104.13841)
+- Citation Prediction as Training Objective: [SPECTER: Document-level Representation Learning using Citation-informed Transformers](https://arxiv.org/abs/2004.07180)
 
 ## Similarity / Distance Measures
 
