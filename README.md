@@ -308,7 +308,12 @@ Variations
 
 - [Evolution of Semantic Similarity - A Survey](https://dl.acm.org/doi/abs/10.1145/3440755)
 - [Text Classification Algorithms: A Survey](https://github.com/kk7nc/Text_Classification) [(Paper)](https://www.mdpi.com/2078-2489/10/4/150)
-- 
+
+## Tutorials
+
+- [Training State-of-the-Art Text Embedding & Neural Search Models](https://www.youtube.com/watch?v=XHY-3FzaLGc)
+
+
 ## See also
 
 - [Text Similarities: Estimate the degree of similarity between two texts](https://medium.com/@adriensieg/text-similarities-da019229c894) [Repo](https://github.com/adsieg/text_similarity)
