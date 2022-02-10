@@ -297,7 +297,7 @@ Variations
 - [CSFCube -- A Test Collection of Computer Science Research Articles for Faceted Query by Example](https://arxiv.org/abs/2103.12906)
 - [STSbenchmark](https://ixa2.si.ehu.eus/stswiki/index.php/STSbenchmark)
 - [A Heterogeneous Benchmark for Information Retrieval. Easy to use, evaluate your models across 15+ diverse IR datasets.](https://github.com/UKPLab/beir)
-
+- [A Benchmark Corpus for the Detection of Automatically Generated Text in Academic Publications](https://arxiv.org/abs/2202.02013) 
 
 ## Performance measures
 
