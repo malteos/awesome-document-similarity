@@ -1,6 +1,10 @@
 # Awesome Document Similarity Measures
 
+![contributing-image](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+
 A curated list of resources, such as papers, tutorials, code, etc., on the topic of document similarity measures.
+
+**Please feel free to create a pull request if you would like to add other awesome papers.**
 
 ## Motivation
 
